@@ -16,7 +16,7 @@ int main()
     vector<Log> logged_people;
 
     // opening the file
-    csvfile.open("C:\\Users\\Sailor\\Downloads\\Microsoft VS Code\\helloVScode\\Practics\\C++\\Drafts_Test\\rand.csv");
+    csvfile.open("user_logs.csv");
     if(!csvfile.is_open())
     {
         cout << "Error: file could not be opened" << endl;
